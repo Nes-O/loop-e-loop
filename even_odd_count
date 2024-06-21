@@ -1,0 +1,14 @@
+# Python program to for counting even and odd numbers
+def numberList (numbers):
+    even_num = 0
+    odd_num = 0
+    for i in numbers:
+        
+        if (i%2 == 0):
+            even_num = even_num + 1
+        else:
+            odd_num = odd_num + 1
+    return (even_num, odd_num)
+            
+    
+print(numberList([1,2,5,6,9,12,14,17,18,25,27]))
