@@ -1,0 +1,8 @@
+# python program to reverse a string
+def acceptWord (nameString):
+    s = ""
+    for i in nameString:
+        s = i + s
+    return s
+        
+print(acceptWord('Teresa'))
