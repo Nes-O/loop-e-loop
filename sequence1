@@ -1,3 +1,4 @@
+#print(object(s), sep=separator, end=end, file=file, flush=flush)
 def sequence (seq):
     for i in range(1,seq+1):
         for j in range (i):
