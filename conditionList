@@ -1,0 +1,14 @@
+# Python conditons The number must be divisible by five. If the number is greater than 150, then skip it and move to the next number. If the number is greater than 500, then stop the loop
+def conditional_statements (num_list):
+    new_list = []
+    for i in num_list:
+        print(i)
+        if (i > 500):
+            break
+        if (i > 150):
+            continue
+        if (i % 5 == 0):
+            new_list.append(i)
+    
+    return new_list
+print(conditional_statements([12, 75, 150, 180, 145, 525, 50]))
