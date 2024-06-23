@@ -1,0 +1,9 @@
+def multiplication_table (num, num_till):
+    sequence = 1
+    multiplied_num = 1
+    for i in range(1,num_till+1):
+        multiplied_num = num * i
+        print(multiplied_num)        
+    
+        
+print(multiplication_table(12,11))
