@@ -1,0 +1,15 @@
+def exchange (num_list):
+    first_element = 0
+    last_element = 0
+    first_element = num_list[0]
+    print(first_element)
+    last_element = num_list[-1]
+    print(last_element)
+    num_list[0] = last_element
+    num_list[-1] = first_element
+    
+    return num_list
+    
+    
+    
+print(exchange([12, 75, 150, 180, 145, 525, 50]))
