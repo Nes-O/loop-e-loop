@@ -20,3 +20,16 @@ print(test_distinct([1, 5, 7, 9]))
 
 # Call the test_distinct function with a list [2, 4, 5, 5, 7, 9] and print the result.
 print(test_distinct([2, 4, 5, 5, 7, 9]))
+=======================================================================================================================
+=======================================================================================================================
+def test_hcf(x,y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1,smaller+1):
+        if((x % i == 0) and (y % i == 0)):
+            hcf = i 
+    return hcf
+    
+print(test_hcf(5,9))
