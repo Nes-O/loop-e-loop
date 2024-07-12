@@ -1,0 +1,9 @@
+def print2largest(self, arr):
+        # Code Here
+        
+        my_set = set(arr)
+        if len(my_set) > 1:
+            my_set.remove(max(my_set))
+            return (max(my_set))
+        else:
+            return -1
