@@ -1,0 +1,10 @@
+test_str = 'geeksforgeeks 33 is   best'
+count = 0
+count2 = 0 
+for i in test_str:
+    print(i)
+    count2 += 1
+    if (i != ' ') :
+        count += 1
+print(count2)
+print(count)
